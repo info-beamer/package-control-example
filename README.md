@@ -1,6 +1,6 @@
 # Example Node Remote Control
 
-[![Import](https://cdn.infobeamer.com/s/img/import.png)](https://info-beamer.com/use?url=http://github.com/info-beamer/package-control-example.git)
+[![Import](https://cdn.infobeamer.com/s/img/import.png)](https://info-beamer.com/use?url=https://github.com/info-beamer/package-control-example.git)
 
 This package demonstrates the `control_ui` feature of info-beamer hosted. It allows each
 node of your package to provide a custom HTML/JS/CSS interface. This interface is then
