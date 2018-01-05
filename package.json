@@ -1,0 +1,6 @@
+{
+    "name": "Remote Control Example",
+    "author": "Florian Wesch <fw@info-beamer.com>",
+    "desc": "Example code that shows the control_ui feature of info-beamer hosted",
+    "repository": "https://github.com/info-beamer/package-control-example"
+}

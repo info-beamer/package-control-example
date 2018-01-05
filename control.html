@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <button id='on' class='btn btn-default'>Toggle On</button>
+    <button id='off' class='btn btn-default'>Toggle Off</button>
+
+    <!-- Provides the interface to info-beamer hosted -->
+    <script src="hosted.js"></script>
+
+    <script>
+      // Add CSS style, so the interface has the same look & feel like
+      // the rest of the info-beamer hosted interface. It's bootstrap 3.
+      ib.setDefaultStyle();
+
+      document.getElementById('on').addEventListener('click', function(evt) {
+        // Send a command. This ends up in the running lua code on the device
+        ib.sendCommand("toggle", "on");
+      });
+
+      document.getElementById('off').addEventListener('click', function(evt) {
+        ib.sendCommand("toggle", "off");
+      });
+    </script>
+  </body>
+</html>
+
